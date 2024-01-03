@@ -22,6 +22,13 @@ docker network create \
 
 It will create a seperate network and containers can be assigned to this network.
 
+### Inspect Network
+Commands -
+`docker network ls` 
+`docker inspect {network_name}`
+
+**Docker has embedded DNS server**
+
 ## Prerequisites
 
 - Linux image (Ubuntu preferred)
